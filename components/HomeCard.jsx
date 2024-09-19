@@ -6,7 +6,7 @@ export default function CardComponent({ img, text }) {
 		<Card className="w-full max-w-md bg-[#19171c] border-[#353535] py-4 mt-10">
 			<CardContent className="flex items-center p-6">
 				<Avatar className="h-16 w-16 mr-6 rounded-none">
-					<AvatarImage src={img} alt="Icon" />
+					<AvatarImage className="object-contain" src={img} alt="Icon" />
 					<AvatarFallback>IC</AvatarFallback>
 				</Avatar>
 				<div>
