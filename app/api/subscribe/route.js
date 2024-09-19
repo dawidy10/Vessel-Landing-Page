@@ -6,8 +6,8 @@ export async function POST(request) {
 		return NextResponse.json({ error: "Invalid email address" }, { status: 400 });
 	}
 
-	const API_KEY = process.env.CONVERTKIT_API_KEY;
-	const FORM_ID = process.env.CONVERTKIT_FORM_ID;
+	const API_KEY = process.env.NEXT_PUBLIC_CONVERTKIT_API_KEY;
+	const FORM_ID = process.env.NEXT_PUBLIC_CONVERTKIT_FORM_ID;
 
 	try {
 		const response = await fetch(`https://api.convertkit.com/v3/forms/${FORM_ID}/subscribe`, {
