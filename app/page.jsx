@@ -28,19 +28,23 @@ export default function Home() {
 						<AvatarFallback>User</AvatarFallback>
 					</Avatar>
 					<Avatar className="z-10 border-2 border-[#141217] -ml-2">
-						<AvatarImage src="/avatars/me.jpg" />
+						<AvatarImage src="/avatars/2.jpg" />
 						<AvatarFallback>User</AvatarFallback>
 					</Avatar>
 					<Avatar className="z-10 border-2 border-[#141217] -ml-2">
-						<AvatarImage src="/avatars/me.jpg" />
+						<AvatarImage src="/avatars/3.jpg" />
 						<AvatarFallback>User</AvatarFallback>
 					</Avatar>
 					<Avatar className="z-10 border-2 border-[#141217] -ml-2">
-						<AvatarImage src="/avatars/me.jpg" />
+						<AvatarImage src="/avatars/4.jpg" />
 						<AvatarFallback>User</AvatarFallback>
 					</Avatar>
 					<Avatar className="z-10 border-2 border-[#141217] -ml-2">
-						<AvatarImage src="/avatars/me.jpg" />
+						<AvatarImage src="/avatars/5.jpg" />
+						<AvatarFallback>User</AvatarFallback>
+					</Avatar>
+					<Avatar className="z-10 border-2 border-[#141217] -ml-2">
+						<AvatarImage src="/avatars/6.jpg" />
 						<AvatarFallback>User</AvatarFallback>
 					</Avatar>
 				</div>
