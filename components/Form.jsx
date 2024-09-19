@@ -29,7 +29,7 @@ export default function Form() {
 		}
 	}, [showAlert]);
 	return (
-		<form data-netlify="true" onSubmit={handleSubmit} className="px-4 md:px-0 w-full max-w-md mt-14">
+		<form onSubmit={handleSubmit} className="px-4 md:px-0 w-full max-w-md mt-14">
 			<div className="flex w-full max-w-md items-center space-x-2">
 				<Input
 					className="border-[#353535] text-md"
