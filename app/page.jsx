@@ -55,12 +55,12 @@ export default function Home() {
 					<Link href="/#waitlist">Alătură-te</Link>
 				</Button>
 				<div className="bg-accent opacity-15 w-[500px] h-[500px] absolute z-0 top-96 blur-3xl circle rounded-full"></div>
-				<div className={`${styles.fadeEffect} w-full md:w-2/3 px-4 md:px-0 mt-20 z-10`}>
+				<div className={`${styles.fadeEffect} px-4 md:px-0 mt-20 z-10`}>
 					<Image
 						className={`${styles.gif} z-10 border border-[#353535] rounded`}
 						src={animation}
-						width={1280}
-						height={720}
+						width={800}
+						height={450}
 						alt="Animation"
 					/>
 				</div>
