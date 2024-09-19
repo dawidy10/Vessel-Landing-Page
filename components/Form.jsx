@@ -14,11 +14,20 @@ export default function Form() {
 		return emailRegex.test(email);
 	};
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
 		setEmail("");
 		setShowAlert(true);
-		console.log("Submitted email:", email);
+		// console.log("Submitted email:", email);
+		const response = await fetch("/api/subscribe", {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+			},
+			body: JSON.stringify({ email }),
+		});
+		const data = await response.json();
+		console.log(data);
 	};
 
 	useEffect(() => {
