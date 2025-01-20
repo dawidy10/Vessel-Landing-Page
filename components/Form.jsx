@@ -34,7 +34,7 @@ export default function Form() {
 		if (showAlert) {
 			setTimeout(() => {
 				setShowAlert(false);
-			}, 5000);
+			}, 10000);
 		}
 	}, [showAlert]);
 	return (
@@ -59,7 +59,8 @@ export default function Form() {
 				<Alert className="bg-[#19171c] border-green-500 mt-4">
 					<AlertTitle className="text-green-700">Mulțumim pentru înscriere!</AlertTitle>
 					<AlertDescription className="text-white">
-						Vrei primi actualizări cu privire la platforma Vessel pe adresa introdusă!
+						Verifică mail-ul pentru a confirma adresa introdusă. Acolo vei primi actualizări cu privire la
+						platforma Vessel!
 					</AlertDescription>
 				</Alert>
 			)}

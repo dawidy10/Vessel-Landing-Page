@@ -16,11 +16,11 @@ export default function Home() {
 			<div className="flex flex-col items-center py-4 relative pb-10">
 				<Image className="z-10" src={logo} width={130} height={100} alt="Vessel Logo" />
 				<h1 className="z-10 font-bold text-4xl md:text-6xl text-center mt-20 w-full md:w-3/4 z-1 md:leading-normal leading-normal px-4 md:px-0">
-					Locul Unde Slujitorii Pot{" "}
+					Locul Unde Predicatorii Pot{" "}
 					<span className="z-10 px-1 bg-accent z-0 inline-block skew-y-1">
 						<span className="z-10 skew-y-0">Studia</span>
 					</span>{" "}
-					<span className="z-10 px-1 bg-accent z-0 inline-block skew-y-1"> Scriptura</span> Împreună
+					<span className="z-10 px-1 bg-accent z-0 inline-block skew-y-1"> Biblia</span> Împreună
 				</h1>
 				<div className="z-10 flex mt-14">
 					<Avatar className="z-10 border-2 border-[#141217]">
@@ -56,13 +56,6 @@ export default function Home() {
 				</Button>
 				<div className="bg-accent opacity-15 w-[500px] h-[500px] absolute z-0 top-96 blur-3xl circle rounded-full"></div>
 				<div className={`${styles.fadeEffect} px-4 md:px-0 mt-20 z-10`}>
-					{/* <Image
-						className={`${styles.gif} z-10 border border-[#353535] rounded`}
-						src={animation}
-						width={800}
-						height={450}
-						alt="Animation"
-					/> */}
 					<video
 						className={`${styles.gif} w-[800px] z-10 border border-[#353535] rounded`}
 						autoPlay
@@ -105,6 +98,7 @@ export default function Home() {
 				<p id="waitlist" className="z-10 text-lg mt-4 text-center px-4 w-full md:w-1/2">
 					Vessel nu este încă deschis publicului, înscrie-te mai jos pentru a fi primul care află când
 					platforma este gata!
+					<span className="underline"> După înscriere, verifică inboxul pentru a confirma.</span>
 				</p>
 				<Form />
 				<Image className="mt-20" src={footerLogo} width={50} height={50} alt="logo" />
